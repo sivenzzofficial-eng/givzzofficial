@@ -1,0 +1,6 @@
+{
+  "name": "Givzz Hub & Ecosystem",
+  "description": "Portal web resmi karya Givzz dengan katalog website pilihan, dompet digital Gpay, Gstore, dan panel admin pemantauan real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

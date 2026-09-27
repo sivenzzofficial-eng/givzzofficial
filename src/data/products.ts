@@ -1,0 +1,58 @@
+import { GstoreProduct } from '../types';
+
+export const GSTORE_PRODUCTS: GstoreProduct[] = [
+  {
+    id: 'prod-1',
+    name: 'Mobile Legends 86 Diamonds',
+    category: 'Game',
+    price: 21500,
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500&auto=format&fit=crop&q=80',
+    description: 'Top up 86 Diamonds Mobile Legends instan via User ID & Zone ID.',
+  },
+  {
+    id: 'prod-2',
+    name: 'Genshin Impact 300+30 Genesis Crystals',
+    category: 'Game',
+    price: 65000,
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=500&auto=format&fit=crop&q=80',
+    description: 'Blessing of the Welkin Moon & Genesis Crystals legal 100%.',
+  },
+  {
+    id: 'prod-3',
+    name: 'Spotify Premium Individual 1 Bulan',
+    category: 'Streaming',
+    price: 54990,
+    popular: false,
+    image: 'https://images.unsplash.com/photo-1614680376593-902f749f7ffc?w=500&auto=format&fit=crop&q=80',
+    description: 'Nikmati musik tanpa iklan, unduh lagu offline, kualitas audio tertinggi.',
+  },
+  {
+    id: 'prod-4',
+    name: 'Steam Wallet Code IDR 60.000',
+    category: 'Voucher',
+    price: 68000,
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1612287232230-058882a8a816?w=500&auto=format&fit=crop&q=80',
+    description: 'Kode voucher resmi Steam Indonesia langsung masuk ke akun kamu.',
+  },
+  {
+    id: 'prod-5',
+    name: 'Paket Data 15GB 30 Hari All Operator',
+    category: 'Pulsa & Data',
+    price: 45000,
+    popular: false,
+    image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&auto=format&fit=crop&q=80',
+    description: 'Kuota 24 jam full tanpa pembagian waktu untuk Telkomsel, XL, Indosat.',
+  },
+  {
+    id: 'prod-6',
+    name: 'Givzz VIP Access Pass 1 Bulan',
+    category: 'Voucher',
+    price: 35000,
+    popular: true,
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=80',
+    description: 'Akses tanpa batas ke seluruh web premium dan AI tool karya Givzz.',
+  },
+];
